@@ -12,6 +12,6 @@ on:
 
 jobs:
   call-workflow-passing-data:
-    uses: ./.github/actions/ossf-scorecard-action-call.yaml@main
+    uses: ./.github/workflows/ossf-scorecard-action-call.yaml@main
     secrets:
       token: ${{ secrets.SCORECARD_READ_TOKEN }}
